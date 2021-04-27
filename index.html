@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="dist/css/custom.min.css">
+  <title>Текущие задачи</title>
+</head>
+<body>
+  <header class="navbar sticky-top shadow bg-white">
+    <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="index.html">DOSTAVKA.INFO</a>
+    <ul class="nav">
+      <li class="nav-item">
+        <a href="" class="nav-link d-flex align-items-center"><span class="material-icons me-1">account_circle</span> Оператор</a>
+      </li>
+      <li class="nav-item">
+        <a href="" class="nav-link d-flex align-items-center"><span class="material-icons me-1">logout</span> Выход</a>
+      </li>
+    </ul>
+  </header>
+  <div class="container-fluid">
+    <div class="row">
+      <aside class="col-md-3 col-lg-2">
+        <div class="position-sticky pt-4">
+          <ul class="nav flex-column">
+            <li class="nav-item"><a href="index.html" class="nav-link active text-decoration-none">Текущие задачи</a></li>
+            <li class="nav-item"><a href="" class="nav-link text-decoration-none">Завершенные задачи</a></li>
+          </ul>
+        </div>
+      </aside>
+      <main class="col-md-9 col-lg-10 ms-auto p-4">
+        <h1>Текущие задачи</h1>
+        <div class="btn-group mt-4" role="group" aria-label="Basic radio toggle button group">
+          <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+          <label class="btn btn-outline-primary" for="btnradio1">Все</label>
+        
+          <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+          <label class="btn btn-outline-primary" for="btnradio2">Новые</label>
+        
+          <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+          <label class="btn btn-outline-primary" for="btnradio3">Вызов курьера</label>
+
+          <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
+          <label class="btn btn-outline-primary" for="btnradio4">Обратный звонок</label>
+        </div>
+
+        <table class="table table-hover mt-4">
+          <tr>
+            <td><strong>Вызов курьера</strong></td>
+            <td><small class="text-muted"><time>23.04.2021 15:30</time></small></td>
+            <td><span class="badge bg-danger">Новое</span></td>
+            <td class="text-end"><a href="call-courier.html" class="btn btn-primary">Подробнее</a></td>
+          </tr>
+          <tr>
+            <td><strong>Обратный звонок</strong></td>
+            <td><small class="text-muted"><time>23.04.2021 15:30</time></small></td>
+            <td><span class="badge bg-danger">Новое</span></td>
+            <td class="text-end"><a href="callback.html" class="btn btn-primary">Подробнее</a></td>
+          </tr>
+          <tr>
+            <td><strong>Обратный звонок</strong></td>
+            <td><small class="text-muted"><time>23.04.2021 15:30</time></small></td>
+            <td><span class="badge bg-danger">Новое</span></td>
+            <td class="text-end"><a href="callback.html" class="btn btn-primary">Подробнее</a></td>
+          </tr>
+          <tr>
+            <td><strong>Вызов курьера</strong></td>
+            <td><small class="text-muted"><time>23.04.2021 15:30</time></small></td>
+            <td><span class="badge bg-light text-dark">Курьер в пути</span></td>
+            <td class="text-end"><a href="call-courier.html" class="btn btn-primary">Подробнее</a></td>
+          </tr>
+        </table>
+      </main>
+    </div>
+  </div>
+</body>
+</html>
